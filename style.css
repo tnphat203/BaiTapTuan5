@@ -65,3 +65,36 @@ body{
     gap: 18px;
     padding-left: 10px;
 }
+.title{
+    display: flex;
+    width: 1220px;
+    height: 150px;
+    padding-top: 45px;
+}
+.address{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+}
+.title-left{
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 130px;
+}
+.product-title{
+    font-size: 50px;
+    margin-top: 24px;
+}
+.reviews{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    padding-top: 27px;
+    gap: 5px;
+}
+
+.rating303{
+    margin-top: 5px;
+    width: 80px;
+    height: 15px;
+}
