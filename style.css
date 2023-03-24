@@ -67,9 +67,8 @@ body{
 }
 .title{
     display: flex;
-    width: 1220px;
     height: 150px;
-    padding-top: 45px;
+    padding-top: 50px;
 }
 .address{
     display: flex;
@@ -80,8 +79,11 @@ body{
     font-size: 14px;
     line-height: 25px;
     margin-left: 130px;
+    width: 340px;
 }
 .product-title{
+    display: flex;
+    width: 320px;
     font-size: 50px;
     margin-top: 24px;
 }
@@ -97,4 +99,22 @@ body{
     margin-top: 5px;
     width: 80px;
     height: 15px;
+}
+.title-right{
+    display: flex;
+    height: 30px;
+    width: 300px;
+    align-items: center;
+    padding-top: 97px;
+    padding-left: 630px;
+    font-size: 14px;
+    gap: 40px;
+}
+.title-right-button{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.title-right-icon{
+    width: 15px;
 }
