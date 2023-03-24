@@ -69,7 +69,8 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 50px;
-    padding-left:130px;;
+    padding-left:130px;
+    width: 1185px;
 }
 .title{
     display: flex;
@@ -98,7 +99,6 @@ body{
     padding-top: 27px;
     gap: 5px;
 }
-
 .rating303{
     margin-top: 5px;
     width: 80px;
@@ -137,4 +137,69 @@ body{
     height: 430px;
     width: 585px;
 }
+.paragraph-and-buy{
+    display: flex;
+    height: 450px;
+    gap: 70px;
+}
+.paragraph-and-buy-left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
 
+.paragraph-and-buy-p{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 60px;
+    font-size: 15px;
+    gap: 7px;
+}
+.paragraph-and-buy-left-inf{
+    display: flex;
+    margin-top: 140px;
+    gap: 45px;
+}
+.paragraph-and-buy-left-inf-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.paragraph-and-buy-left-inf-one{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+}
+.paragraph-and-buy-right{
+    display: flex;
+    flex-direction: column;
+    width: 342px;
+    height: 388px;
+    border: 1px solid #f6f3f3;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #00bdd6;
+}
+.paragraph-and-buy-right-list-combobox{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 130px;
+    gap: 15px; 
+}
+.paragraph-and-buy-right-one-combobox{
+    display: flex;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: #f3f4f6;
+    align-items: center;
+    color: black;
+    position: relative;
+}
+.icon-down{
+    
+}
