@@ -65,10 +65,15 @@ body{
     gap: 18px;
     padding-left: 10px;
 }
+.center{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left:130px;;
+}
 .title{
     display: flex;
-    height: 150px;
-    padding-top: 50px;
+    height: 140px;
 }
 .address{
     display: flex;
@@ -78,7 +83,6 @@ body{
 .title-left{
     font-size: 14px;
     line-height: 25px;
-    margin-left: 130px;
     width: 340px;
 }
 .product-title{
@@ -106,7 +110,7 @@ body{
     width: 300px;
     align-items: center;
     padding-top: 97px;
-    padding-left: 630px;
+    padding-left: 670px;
     font-size: 14px;
     gap: 40px;
 }
@@ -118,3 +122,19 @@ body{
 .title-right-icon{
     width: 15px;
 }
+.list-pic{
+    display: flex;
+    width: 1200px;
+    height: 460px;
+    gap: 17px;
+}
+.list-pic-right{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.one-pic-left{
+    height: 430px;
+    width: 585px;
+}
+
