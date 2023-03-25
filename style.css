@@ -242,7 +242,7 @@ body{
 }
 .reviews-container{
     display: flex;
-    height: 90px;
+    height: 65px;
     padding-top: 55px;
     font-size:28px;
     gap: 10px;
@@ -274,7 +274,7 @@ body{
 }
 .reviews-list{
     display: flex;
-    height:110px;
+    height:120px;
     justify-content: space-between;
 }
 .reviews-one{
