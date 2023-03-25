@@ -240,3 +240,36 @@ body{
     margin-top: 15px;
     border: 2px solid #00bdd6;
 }
+.reviews-container{
+    display: flex;
+    height: 380px;
+    border: 1px solid #f6f3f3;
+
+    padding-top: 55px;
+    font-size:28px;
+    gap: 10px;
+}
+
+.reviews-container-title{
+    display: flex;
+    gap: 7px;
+    font-size: 15px;
+    height: 20px;
+    padding-top: 9px;
+}
+.icon-star{
+    height: 20px;
+    margin-top: 5px;
+}
+.reviews-container-show-all{
+    display: flex;
+    color: #999da7;
+    background-color: #f6f3f3;
+    font-size: 15px;
+    height: 25px;
+    margin-top: 7px;
+    align-items: center;
+    width: 145px;
+    justify-content: center;
+    margin-left: 758px;
+}
