@@ -70,7 +70,7 @@ body{
     flex-direction: column;
     padding-top: 50px;
     padding-left:130px;
-    width: 1185px;
+    width: 1190px;
 }
 .title{
     display: flex;
@@ -300,4 +300,60 @@ body{
 }
 .ing-star{
     width: 85px;
+}
+.product{
+    display: flex;
+    height: 557px;
+    flex-direction: column;
+    padding-top: 53px;
+}
+.product-related{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.btn-see-more{
+    display: flex;
+    height: 30px;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    color: #999da7;
+    background-color: #f3f4f6;
+    font-size: 14px;
+    gap: 15px;
+}
+.list-product{
+    display: flex;
+    height: 380px;
+    padding-top: 35px;
+    justify-content: space-around;
+}
+.one-product{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 355px;
+}
+.img-product{
+    height: 240px;
+}
+.inf-product{
+    display: flex;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.inf-product-right{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 12px;
+    color: #999da7;
+}
+.inf-product-right-heard-icon{
+    margin-top: 5px;
+    margin-left: 100px;
+    height: 25px;
+    width: 25px;
 }
