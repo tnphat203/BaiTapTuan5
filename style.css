@@ -242,12 +242,11 @@ body{
 }
 .reviews-container{
     display: flex;
-    height: 380px;
-    border: 1px solid #f6f3f3;
-
+    height: 90px;
     padding-top: 55px;
     font-size:28px;
     gap: 10px;
+    justify-content: space-around;
 }
 
 .reviews-container-title{
@@ -272,4 +271,33 @@ body{
     width: 145px;
     justify-content: center;
     margin-left: 758px;
+}
+.reviews-list{
+    display: flex;
+    height:110px;
+    justify-content: space-between;
+}
+.reviews-one{
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 160px;
+    font-size: 14px;
+}
+.reviews-one-user{
+    display: flex;
+    height: 50px;
+    gap: 10px;
+}
+.reviews-one-user-name{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+}
+.img-user{
+    height: 33px;
+    width: 33px;
+}
+.ing-star{
+    width: 85px;
 }
