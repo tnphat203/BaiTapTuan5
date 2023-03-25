@@ -303,7 +303,7 @@ body{
 }
 .product{
     display: flex;
-    height: 557px;
+    height: 500px;
     flex-direction: column;
     padding-top: 53px;
 }
